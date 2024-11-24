@@ -224,6 +224,21 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  members:
+    output: true
+    permalink: /:collection/:path/
+  achievement:
+    output: true
+    permalink: /:collection/:path/
+  papers:
+    output: true
+    permalink: /:collection/:path/
+  activities:
+    output: true
+    permalink: /:collection/:path/
+  contact:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -281,6 +296,51 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _members
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _achievement
+  - scope:
+      path: ""
+      type: achievement
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _papers
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _activities
+  - scope:
+      path: ""
+      type: activities
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _contact
+  - scope:
+      path: ""
+      type: contact
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 # Sass/SCSS
