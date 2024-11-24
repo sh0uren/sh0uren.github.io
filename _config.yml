@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "yuta-okkotsu-3840x2160-1456.jpg"
+  avatar           : "yuta-okkotsu.png"
   name             : "FNS Group"
   pronouns         : # example: "she/her"  
   bio              : "Future Network and Security"
